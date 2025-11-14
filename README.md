@@ -81,13 +81,15 @@ Step 4 — View Final Visual
 The final composition is shown in the OUT_TOP.
 
 ## 📦 File Structure
-project/
-│── Arduino/
-│   └── sensor_send.ino
-│── TouchDesigner/
-│   └── project.toe
-│── assets/
-│── README.md
+/Users/caifengyi/Desktop/MechanicalBeliefStream
+├── arduino
+│   └── faithproject3.ino
+├── assets
+│   └── 3-1-by-super-pdf.pdf
+├── touchdesigner
+│   └── faithserver.16.toe
+└── touchdesignerserver
+    └── server.py
 
 ## ✨ Features
 Real-time sensor data streaming
