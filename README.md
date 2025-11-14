@@ -7,7 +7,6 @@ Hardware Components
 FSR402 pressure sensors
 Light sensor (LM393 or similar)
 Temperature & humidity sensor (DHT11 / DHT22)
-pH sensor (PH4502C)
 Microphone (INMP441 or analog mic)
 ESP32 / Arduino board
 Optional display: ST7735 / OLED screen
@@ -41,31 +40,9 @@ particle systems
 shader-based interactions
 color shifts and distortions
 physics-influenced motion
-Each sensor is mapped to a specific visual attribute:
-Sensor	Mapping in TouchDesigner
-Pressure (FSR)	Scale, force, intensity
-Light	Brightness, color temperature
-Temperature	Gradient shift
-Humidity	Particle turbulence
-pH	Color palette mapping
-Microphone	Amplitude-driven motion
+Each sensor is mapped to a specific visual attribute
 
-## 🛠 Installation
-1. Arduino / ESP32
-Upload the data-sending firmware to your microcontroller.
-Example minimal code:
-Serial.print(fsrValue);
-Serial.print(",");
-Serial.print(lightValue);
-Serial.print(",");
-Serial.println(tempValue);
-2. TouchDesigner
-Open the .toe file included in the project.
-You may need to:
-enable serial input
-set correct COM port or network IP
-adjust channel mapping
-▶️ How to Run
+## 🛠 How to Run
 Step 1 — Connect Hardware
 Plug in Arduino or power your ESP32.
 Step 2 — Launch TouchDesigner
