@@ -99,3 +99,10 @@ Designed for interactive installations
 ## 🧑‍💻 Author
 Cai Fengyi
 2025
+
+## 📘 Note
+This repository serves as a demonstration of the project's technical research and development process.  
+Some implementation details, data, and experimental records have been simplified for public release.
+
+For further information or collaboration, please contact:
+📩 nissen2417@gamil.com
